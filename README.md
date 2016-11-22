@@ -1,0 +1,2 @@
+#jekyll
+	jekyll-paginate-plugin
