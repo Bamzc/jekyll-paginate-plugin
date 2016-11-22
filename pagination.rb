@@ -45,7 +45,9 @@ module Jekyll
       #                   "next_page" => <Number> }}
       def paginate(site, page)
         all_posts = site.site_payload['site']['posts']
-        name = site.config['paginate_path'].split('/')[1]
+        paginate_array = site.config['paginate_path'].split('/')
+        len = paginate_array.length-1
+        name = site.config['paginate_path'].split('/')[len-2]
         all_posts = all_posts.find_all { |p| p['category'] == name }
         pages = Pager.calculate_pages(all_posts, site.config['paginate'].to_i)
 
