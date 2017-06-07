@@ -1,6 +1,7 @@
 module Jekyll
   module Paginate
     class Pager
+
       attr_reader :page, :per_page, :posts, :total_posts, :total_pages,
         :previous_page, :previous_page_path, :next_page, :next_page_path
 

@@ -48,7 +48,12 @@ module Jekyll
         paginate_array = site.config['paginate_path'].split('/')
         len = paginate_array.length-1
         name = site.config['paginate_path'].split('/')[len-2]
-        all_posts = all_posts.find_all { |p| p['category'] == name }
+        if name != nil
+          all_posts = all_posts.find_all { |p| p['ascription'] == name }
+        else
+          all_posts = all_posts.reject { |p| p['hidden'] }
+        end
+        
         pages = Pager.calculate_pages(all_posts, site.config['paginate'].to_i)
 
         (1..pages).each do |num_page|
