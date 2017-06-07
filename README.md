@@ -12,7 +12,7 @@
 ## Explain
 
 想要支持分类分页，每个页面需要设置ascription，例如：
-'''
+```
 ---
 layout: study
 title : jekyll，分页功能，附带分类分页！
@@ -24,8 +24,8 @@ date: 2016-11-02 19:20:
 ascription: study
 group: navigation
 ---
-'''
+```
 以上是我的实现方式。
   
 ## License
- 	(The MIT License) Copyright (c) 2014 - 2015 bamzc
+ The MIT License) Copyright (c) 2014 - 2015 bamzc
