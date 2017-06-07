@@ -12,17 +12,19 @@
 ## Explain
 
 想要支持分类分页，每个页面需要设置ascription，例如：
-	---
-	layout: study
-	title : jekyll，分页功能，附带分类分页！
-	tags: ['jekyll','blog']
-	categories: ['网站','博客']
-	header: jekyll
-	tagline: jekyll，分页功能，附带分类分页！
-	date: 2016-11-02 19:20:
-	ascription: study
-	group: navigation
-	---
+'''
+---
+layout: study
+title : jekyll，分页功能，附带分类分页！
+tags: ['jekyll','blog']
+categories: ['网站','博客']
+header: jekyll
+tagline: jekyll，分页功能，附带分类分页！
+date: 2016-11-02 19:20:
+ascription: study
+group: navigation
+---
+'''
 以上是我的实现方式。
   
 ## License
