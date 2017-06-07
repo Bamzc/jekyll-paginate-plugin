@@ -28,4 +28,4 @@ group: navigation
 以上是我的实现方式。
   
 ## License
- The MIT License) Copyright (c) 2014 - 2015 bamzc
+ The MIT License) Copyright (c) 2016 - 2017 bamzc
