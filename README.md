@@ -7,7 +7,7 @@
  
 ## Get Stared
 
- 下载以后，将其放入jekyll项目的_plugins目录底下，运行项目即可。详细介绍，通过我的博客[Bamzc-blog](http://www.bamzc.top/2016/11/03/jekyll-paginate)查看。
+ 下载以后，将其放入jekyll项目的_plugins目录底下，运行项目即可。详细介绍，通过我的博客[Bamzc-blog](http://bamzc.top/2016/11/03/jekyll-paginate)查看。
 	
 ## Explain
 
